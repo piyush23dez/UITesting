@@ -1,0 +1,515 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ViewController"
+provides-nominal:
+- "C15UnitTestingDemo14ViewController"
+provides-member:
+- ["C15UnitTestingDemo14ViewController", ""]
+provides-dynamic-lookup:
+- "result"
+- "getPercentage"
+- "numberSliderChanged"
+- "percentSlider"
+- "number"
+- "percentSliderChanged"
+- "percent"
+- "numberSLider"
+- "viewDidLoad"
+- "didReceiveMemoryWarning"
+depends-top-level:
+- "UISlider"
+- "AssignmentPrecedence"
+- "Float"
+- !private "*"
+- "AnyObject"
+- !private "/"
+- !private "UnicodeScalarType"
+- "ViewController"
+- !private "StringLiteralType"
+- "UIViewController"
+- "UILabel"
+- !private "BooleanLiteralType"
+depends-member:
+- ["Ps9AnyObject", "deinit"]
+- ["Ps9AnyObject", "didReceiveMemoryWarning"]
+- ["Ps9AnyObject", "getPercentage"]
+- !private ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "number"]
+- ["Ps9AnyObject", "numberSLider"]
+- ["Ps9AnyObject", "numberSliderChanged"]
+- ["Ps9AnyObject", "percent"]
+- ["Ps9AnyObject", "percentSlider"]
+- ["Ps9AnyObject", "percentSliderChanged"]
+- ["Ps9AnyObject", "result"]
+- !private ["Ps9AnyObject", "setValue"]
+- !private ["Ps9AnyObject", "text"]
+- ["Ps9AnyObject", "updateLabels"]
+- !private ["Ps9AnyObject", "value"]
+- ["Ps9AnyObject", "viewDidLoad"]
+- ["Ps9AnyObject", ""]
+- ["Sb", "deinit"]
+- !private ["PSo15CALayerDelegate", "setValue"]
+- !private ["PSo15CALayerDelegate", "text"]
+- !private ["PSo15CALayerDelegate", "value"]
+- ["Ps7CVarArg", "didReceiveMemoryWarning"]
+- ["Ps7CVarArg", "getPercentage"]
+- !private ["Ps7CVarArg", "init"]
+- ["Ps7CVarArg", "number"]
+- ["Ps7CVarArg", "numberSLider"]
+- ["Ps7CVarArg", "numberSliderChanged"]
+- ["Ps7CVarArg", "percent"]
+- ["Ps7CVarArg", "percentSlider"]
+- ["Ps7CVarArg", "percentSliderChanged"]
+- ["Ps7CVarArg", "result"]
+- !private ["Ps7CVarArg", "setValue"]
+- !private ["Ps7CVarArg", "text"]
+- ["Ps7CVarArg", "updateLabels"]
+- !private ["Ps7CVarArg", "value"]
+- ["Ps7CVarArg", "viewDidLoad"]
+- ["Ps7CVarArg", ""]
+- !private ["Vs9Character", "deinit"]
+- !private ["Ps10Comparable", "init"]
+- ["Ps28CustomDebugStringConvertible", "didReceiveMemoryWarning"]
+- ["Ps28CustomDebugStringConvertible", "getPercentage"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "number"]
+- ["Ps28CustomDebugStringConvertible", "numberSLider"]
+- ["Ps28CustomDebugStringConvertible", "numberSliderChanged"]
+- ["Ps28CustomDebugStringConvertible", "percent"]
+- ["Ps28CustomDebugStringConvertible", "percentSlider"]
+- ["Ps28CustomDebugStringConvertible", "percentSliderChanged"]
+- ["Ps28CustomDebugStringConvertible", "result"]
+- !private ["Ps28CustomDebugStringConvertible", "setValue"]
+- ["Ps28CustomDebugStringConvertible", "some"]
+- !private ["Ps28CustomDebugStringConvertible", "text"]
+- ["Ps28CustomDebugStringConvertible", "updateLabels"]
+- !private ["Ps28CustomDebugStringConvertible", "value"]
+- ["Ps28CustomDebugStringConvertible", "viewDidLoad"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "init"]
+- ["Ps17CustomReflectable", "some"]
+- ["Ps23CustomStringConvertible", "didReceiveMemoryWarning"]
+- ["Ps23CustomStringConvertible", "getPercentage"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "number"]
+- ["Ps23CustomStringConvertible", "numberSLider"]
+- ["Ps23CustomStringConvertible", "numberSliderChanged"]
+- ["Ps23CustomStringConvertible", "percent"]
+- ["Ps23CustomStringConvertible", "percentSlider"]
+- ["Ps23CustomStringConvertible", "percentSliderChanged"]
+- ["Ps23CustomStringConvertible", "result"]
+- !private ["Ps23CustomStringConvertible", "setValue"]
+- !private ["Ps23CustomStringConvertible", "text"]
+- ["Ps23CustomStringConvertible", "updateLabels"]
+- !private ["Ps23CustomStringConvertible", "value"]
+- ["Ps23CustomStringConvertible", "viewDidLoad"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Sd", "deinit"]
+- ["Ps9Equatable", "didReceiveMemoryWarning"]
+- ["Ps9Equatable", "getPercentage"]
+- !private ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "number"]
+- ["Ps9Equatable", "numberSLider"]
+- ["Ps9Equatable", "numberSliderChanged"]
+- ["Ps9Equatable", "percent"]
+- ["Ps9Equatable", "percentSlider"]
+- ["Ps9Equatable", "percentSliderChanged"]
+- ["Ps9Equatable", "result"]
+- !private ["Ps9Equatable", "setValue"]
+- !private ["Ps9Equatable", "text"]
+- ["Ps9Equatable", "updateLabels"]
+- !private ["Ps9Equatable", "value"]
+- ["Ps9Equatable", "viewDidLoad"]
+- ["Ps9Equatable", ""]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- ["Ps23ExpressibleByNilLiteral", "some"]
+- !private ["Ps32ExpressibleByStringInterpolation", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- ["Sf", "deinit"]
+- ["Ps8Hashable", "didReceiveMemoryWarning"]
+- ["Ps8Hashable", "getPercentage"]
+- !private ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "number"]
+- ["Ps8Hashable", "numberSLider"]
+- ["Ps8Hashable", "numberSliderChanged"]
+- ["Ps8Hashable", "percent"]
+- ["Ps8Hashable", "percentSlider"]
+- ["Ps8Hashable", "percentSliderChanged"]
+- ["Ps8Hashable", "result"]
+- !private ["Ps8Hashable", "setValue"]
+- !private ["Ps8Hashable", "text"]
+- ["Ps8Hashable", "updateLabels"]
+- !private ["Ps8Hashable", "value"]
+- ["Ps8Hashable", "viewDidLoad"]
+- ["Ps8Hashable", ""]
+- ["SQ", "deinit"]
+- !private ["Si", "deinit"]
+- !private ["Vs5Int16", "deinit"]
+- !private ["Vs5Int32", "deinit"]
+- !private ["Vs5Int64", "deinit"]
+- !private ["Vs4Int8", "deinit"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "init"]
+- ["CSo7NSCoder", "deinit"]
+- ["PSo8NSCoding", "didReceiveMemoryWarning"]
+- ["PSo8NSCoding", "getPercentage"]
+- !private ["PSo8NSCoding", "init"]
+- ["PSo8NSCoding", "number"]
+- ["PSo8NSCoding", "numberSLider"]
+- ["PSo8NSCoding", "numberSliderChanged"]
+- ["PSo8NSCoding", "percent"]
+- ["PSo8NSCoding", "percentSlider"]
+- ["PSo8NSCoding", "percentSliderChanged"]
+- ["PSo8NSCoding", "result"]
+- !private ["PSo8NSCoding", "setValue"]
+- !private ["PSo8NSCoding", "text"]
+- ["PSo8NSCoding", "updateLabels"]
+- !private ["PSo8NSCoding", "value"]
+- ["PSo8NSCoding", "viewDidLoad"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo9NSCopying", "init"]
+- ["PSo26NSExtensionRequestHandling", "didReceiveMemoryWarning"]
+- ["PSo26NSExtensionRequestHandling", "getPercentage"]
+- !private ["PSo26NSExtensionRequestHandling", "init"]
+- ["PSo26NSExtensionRequestHandling", "number"]
+- ["PSo26NSExtensionRequestHandling", "numberSLider"]
+- ["PSo26NSExtensionRequestHandling", "numberSliderChanged"]
+- ["PSo26NSExtensionRequestHandling", "percent"]
+- ["PSo26NSExtensionRequestHandling", "percentSlider"]
+- ["PSo26NSExtensionRequestHandling", "percentSliderChanged"]
+- ["PSo26NSExtensionRequestHandling", "result"]
+- ["PSo26NSExtensionRequestHandling", "updateLabels"]
+- ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
+- ["PSo26NSExtensionRequestHandling", ""]
+- !private ["PSo16NSMutableCopying", "init"]
+- ["CSo8NSObject", "AnyObject"]
+- ["CSo8NSObject", "Float"]
+- ["CSo8NSObject", "UILabel"]
+- ["CSo8NSObject", "UISlider"]
+- ["CSo8NSObject", "didReceiveMemoryWarning"]
+- ["CSo8NSObject", "getPercentage"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "number"]
+- ["CSo8NSObject", "numberSLider"]
+- ["CSo8NSObject", "numberSliderChanged"]
+- ["CSo8NSObject", "percent"]
+- ["CSo8NSObject", "percentSlider"]
+- ["CSo8NSObject", "percentSliderChanged"]
+- ["CSo8NSObject", "result"]
+- !private ["CSo8NSObject", "setValue"]
+- !private ["CSo8NSObject", "text"]
+- ["CSo8NSObject", "updateLabels"]
+- !private ["CSo8NSObject", "value"]
+- ["CSo8NSObject", "viewDidLoad"]
+- ["PSo16NSObjectProtocol", "didReceiveMemoryWarning"]
+- ["PSo16NSObjectProtocol", "getPercentage"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "number"]
+- ["PSo16NSObjectProtocol", "numberSLider"]
+- ["PSo16NSObjectProtocol", "numberSliderChanged"]
+- ["PSo16NSObjectProtocol", "percent"]
+- ["PSo16NSObjectProtocol", "percentSlider"]
+- ["PSo16NSObjectProtocol", "percentSliderChanged"]
+- ["PSo16NSObjectProtocol", "result"]
+- !private ["PSo16NSObjectProtocol", "setValue"]
+- !private ["PSo16NSObjectProtocol", "text"]
+- ["PSo16NSObjectProtocol", "updateLabels"]
+- !private ["PSo16NSObjectProtocol", "value"]
+- ["PSo16NSObjectProtocol", "viewDidLoad"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "init"]
+- ["Sq", "deinit"]
+- ["Sq", "some"]
+- !private ["Ps10Streamable", "init"]
+- ["SS", "deinit"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "setValue"]
+- !private ["PSo29UIAccessibilityIdentification", "text"]
+- !private ["PSo29UIAccessibilityIdentification", "value"]
+- !private ["PSo12UIAppearance", "setValue"]
+- !private ["PSo12UIAppearance", "text"]
+- !private ["PSo12UIAppearance", "value"]
+- ["PSo21UIAppearanceContainer", "didReceiveMemoryWarning"]
+- ["PSo21UIAppearanceContainer", "getPercentage"]
+- !private ["PSo21UIAppearanceContainer", "init"]
+- ["PSo21UIAppearanceContainer", "number"]
+- ["PSo21UIAppearanceContainer", "numberSLider"]
+- ["PSo21UIAppearanceContainer", "numberSliderChanged"]
+- ["PSo21UIAppearanceContainer", "percent"]
+- ["PSo21UIAppearanceContainer", "percentSlider"]
+- ["PSo21UIAppearanceContainer", "percentSliderChanged"]
+- ["PSo21UIAppearanceContainer", "result"]
+- !private ["PSo21UIAppearanceContainer", "setValue"]
+- !private ["PSo21UIAppearanceContainer", "text"]
+- ["PSo21UIAppearanceContainer", "updateLabels"]
+- !private ["PSo21UIAppearanceContainer", "value"]
+- ["PSo21UIAppearanceContainer", "viewDidLoad"]
+- ["PSo21UIAppearanceContainer", ""]
+- ["PSo18UIContentContainer", "didReceiveMemoryWarning"]
+- ["PSo18UIContentContainer", "getPercentage"]
+- !private ["PSo18UIContentContainer", "init"]
+- ["PSo18UIContentContainer", "number"]
+- ["PSo18UIContentContainer", "numberSLider"]
+- ["PSo18UIContentContainer", "numberSliderChanged"]
+- ["PSo18UIContentContainer", "percent"]
+- ["PSo18UIContentContainer", "percentSlider"]
+- ["PSo18UIContentContainer", "percentSliderChanged"]
+- ["PSo18UIContentContainer", "result"]
+- ["PSo18UIContentContainer", "updateLabels"]
+- ["PSo18UIContentContainer", "viewDidLoad"]
+- ["PSo18UIContentContainer", ""]
+- !private ["PSo30UIContentSizeCategoryAdjusting", "text"]
+- !private ["CSo9UIControl", "setValue"]
+- !private ["CSo9UIControl", "value"]
+- !private ["PSo17UICoordinateSpace", "setValue"]
+- !private ["PSo17UICoordinateSpace", "text"]
+- !private ["PSo17UICoordinateSpace", "value"]
+- !private ["PSo13UIDynamicItem", "setValue"]
+- !private ["PSo13UIDynamicItem", "text"]
+- !private ["PSo13UIDynamicItem", "value"]
+- ["PSo18UIFocusEnvironment", "didReceiveMemoryWarning"]
+- ["PSo18UIFocusEnvironment", "getPercentage"]
+- !private ["PSo18UIFocusEnvironment", "init"]
+- ["PSo18UIFocusEnvironment", "number"]
+- ["PSo18UIFocusEnvironment", "numberSLider"]
+- ["PSo18UIFocusEnvironment", "numberSliderChanged"]
+- ["PSo18UIFocusEnvironment", "percent"]
+- ["PSo18UIFocusEnvironment", "percentSlider"]
+- ["PSo18UIFocusEnvironment", "percentSliderChanged"]
+- ["PSo18UIFocusEnvironment", "result"]
+- !private ["PSo18UIFocusEnvironment", "setValue"]
+- !private ["PSo18UIFocusEnvironment", "text"]
+- ["PSo18UIFocusEnvironment", "updateLabels"]
+- !private ["PSo18UIFocusEnvironment", "value"]
+- ["PSo18UIFocusEnvironment", "viewDidLoad"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["PSo11UIFocusItem", "setValue"]
+- !private ["PSo11UIFocusItem", "text"]
+- !private ["PSo11UIFocusItem", "value"]
+- !private ["CSo7UILabel", "text"]
+- ["CSo11UIResponder", "AnyObject"]
+- ["CSo11UIResponder", "Float"]
+- ["CSo11UIResponder", "UILabel"]
+- ["CSo11UIResponder", "UISlider"]
+- ["CSo11UIResponder", "didReceiveMemoryWarning"]
+- ["CSo11UIResponder", "getPercentage"]
+- ["CSo11UIResponder", "init"]
+- ["CSo11UIResponder", "number"]
+- ["CSo11UIResponder", "numberSLider"]
+- ["CSo11UIResponder", "numberSliderChanged"]
+- ["CSo11UIResponder", "percent"]
+- ["CSo11UIResponder", "percentSlider"]
+- ["CSo11UIResponder", "percentSliderChanged"]
+- ["CSo11UIResponder", "result"]
+- !private ["CSo11UIResponder", "setValue"]
+- !private ["CSo11UIResponder", "text"]
+- ["CSo11UIResponder", "updateLabels"]
+- !private ["CSo11UIResponder", "value"]
+- ["CSo11UIResponder", "viewDidLoad"]
+- ["PSo30UIResponderStandardEditActions", "didReceiveMemoryWarning"]
+- ["PSo30UIResponderStandardEditActions", "getPercentage"]
+- !private ["PSo30UIResponderStandardEditActions", "init"]
+- ["PSo30UIResponderStandardEditActions", "number"]
+- ["PSo30UIResponderStandardEditActions", "numberSLider"]
+- ["PSo30UIResponderStandardEditActions", "numberSliderChanged"]
+- ["PSo30UIResponderStandardEditActions", "percent"]
+- ["PSo30UIResponderStandardEditActions", "percentSlider"]
+- ["PSo30UIResponderStandardEditActions", "percentSliderChanged"]
+- ["PSo30UIResponderStandardEditActions", "result"]
+- !private ["PSo30UIResponderStandardEditActions", "setValue"]
+- !private ["PSo30UIResponderStandardEditActions", "text"]
+- ["PSo30UIResponderStandardEditActions", "updateLabels"]
+- !private ["PSo30UIResponderStandardEditActions", "value"]
+- ["PSo30UIResponderStandardEditActions", "viewDidLoad"]
+- ["PSo30UIResponderStandardEditActions", ""]
+- !private ["CSo8UISlider", "setValue"]
+- !private ["CSo8UISlider", "value"]
+- ["PSo16UIStateRestoring", "didReceiveMemoryWarning"]
+- ["PSo16UIStateRestoring", "getPercentage"]
+- !private ["PSo16UIStateRestoring", "init"]
+- ["PSo16UIStateRestoring", "number"]
+- ["PSo16UIStateRestoring", "numberSLider"]
+- ["PSo16UIStateRestoring", "numberSliderChanged"]
+- ["PSo16UIStateRestoring", "percent"]
+- ["PSo16UIStateRestoring", "percentSlider"]
+- ["PSo16UIStateRestoring", "percentSliderChanged"]
+- ["PSo16UIStateRestoring", "result"]
+- ["PSo16UIStateRestoring", "updateLabels"]
+- ["PSo16UIStateRestoring", "viewDidLoad"]
+- ["PSo16UIStateRestoring", ""]
+- ["PSo18UITraitEnvironment", "didReceiveMemoryWarning"]
+- ["PSo18UITraitEnvironment", "getPercentage"]
+- !private ["PSo18UITraitEnvironment", "init"]
+- ["PSo18UITraitEnvironment", "number"]
+- ["PSo18UITraitEnvironment", "numberSLider"]
+- ["PSo18UITraitEnvironment", "numberSliderChanged"]
+- ["PSo18UITraitEnvironment", "percent"]
+- ["PSo18UITraitEnvironment", "percentSlider"]
+- ["PSo18UITraitEnvironment", "percentSliderChanged"]
+- ["PSo18UITraitEnvironment", "result"]
+- !private ["PSo18UITraitEnvironment", "setValue"]
+- !private ["PSo18UITraitEnvironment", "text"]
+- ["PSo18UITraitEnvironment", "updateLabels"]
+- !private ["PSo18UITraitEnvironment", "value"]
+- ["PSo18UITraitEnvironment", "viewDidLoad"]
+- ["PSo18UITraitEnvironment", ""]
+- !private ["CSo6UIView", "setValue"]
+- !private ["CSo6UIView", "text"]
+- !private ["CSo6UIView", "value"]
+- ["CSo16UIViewController", "AnyObject"]
+- ["CSo16UIViewController", "Float"]
+- ["CSo16UIViewController", "UILabel"]
+- ["CSo16UIViewController", "UISlider"]
+- ["CSo16UIViewController", "deinit"]
+- ["CSo16UIViewController", "didReceiveMemoryWarning"]
+- ["CSo16UIViewController", "getPercentage"]
+- ["CSo16UIViewController", "init"]
+- ["CSo16UIViewController", "number"]
+- ["CSo16UIViewController", "numberSLider"]
+- ["CSo16UIViewController", "numberSliderChanged"]
+- ["CSo16UIViewController", "percent"]
+- ["CSo16UIViewController", "percentSlider"]
+- ["CSo16UIViewController", "percentSliderChanged"]
+- ["CSo16UIViewController", "result"]
+- ["CSo16UIViewController", "updateLabels"]
+- ["CSo16UIViewController", "viewDidLoad"]
+- ["CSo16UIViewController", ""]
+- !private ["Su", "deinit"]
+- !private ["Vs6UInt16", "deinit"]
+- !private ["Vs6UInt32", "deinit"]
+- !private ["Vs6UInt64", "deinit"]
+- !private ["Vs5UInt8", "deinit"]
+- !private ["Sc", "deinit"]
+- ["C15UnitTestingDemo14ViewController", "AnyObject"]
+- ["C15UnitTestingDemo14ViewController", "Float"]
+- ["C15UnitTestingDemo14ViewController", "UILabel"]
+- ["C15UnitTestingDemo14ViewController", "UISlider"]
+- ["C15UnitTestingDemo14ViewController", "deinit"]
+- ["C15UnitTestingDemo14ViewController", "didReceiveMemoryWarning"]
+- ["C15UnitTestingDemo14ViewController", "getPercentage"]
+- ["C15UnitTestingDemo14ViewController", "init"]
+- ["C15UnitTestingDemo14ViewController", "number"]
+- ["C15UnitTestingDemo14ViewController", "numberSLider"]
+- ["C15UnitTestingDemo14ViewController", "numberSliderChanged"]
+- ["C15UnitTestingDemo14ViewController", "percent"]
+- ["C15UnitTestingDemo14ViewController", "percentSlider"]
+- ["C15UnitTestingDemo14ViewController", "percentSliderChanged"]
+- ["C15UnitTestingDemo14ViewController", "result"]
+- ["C15UnitTestingDemo14ViewController", "updateLabels"]
+- ["C15UnitTestingDemo14ViewController", "viewDidLoad"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "setValue"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "text"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "value"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- ["Ps9_Hashable", "didReceiveMemoryWarning"]
+- ["Ps9_Hashable", "getPercentage"]
+- !private ["Ps9_Hashable", "init"]
+- ["Ps9_Hashable", "number"]
+- ["Ps9_Hashable", "numberSLider"]
+- ["Ps9_Hashable", "numberSliderChanged"]
+- ["Ps9_Hashable", "percent"]
+- ["Ps9_Hashable", "percentSlider"]
+- ["Ps9_Hashable", "percentSliderChanged"]
+- ["Ps9_Hashable", "result"]
+- !private ["Ps9_Hashable", "setValue"]
+- !private ["Ps9_Hashable", "text"]
+- ["Ps9_Hashable", "updateLabels"]
+- !private ["Ps9_Hashable", "value"]
+- ["Ps9_Hashable", "viewDidLoad"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+depends-nominal:
+- "Ps9AnyObject"
+- "Sb"
+- !private "PSo15CALayerDelegate"
+- "Ps7CVarArg"
+- !private "Vs9Character"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- !private "Sd"
+- "Ps9Equatable"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- "Ps23ExpressibleByNilLiteral"
+- !private "Ps32ExpressibleByStringInterpolation"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- "Sf"
+- "Ps8Hashable"
+- "SQ"
+- !private "Si"
+- !private "Vs5Int16"
+- !private "Vs5Int32"
+- !private "Vs5Int64"
+- !private "Vs4Int8"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- "CSo7NSCoder"
+- "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- "PSo26NSExtensionRequestHandling"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- "Sq"
+- !private "Ps10Streamable"
+- "SS"
+- !private "Ps16TextOutputStream"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- "PSo18UIContentContainer"
+- !private "PSo30UIContentSizeCategoryAdjusting"
+- !private "CSo9UIControl"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- !private "PSo11UIFocusItem"
+- !private "CSo7UILabel"
+- "CSo11UIResponder"
+- "PSo30UIResponderStandardEditActions"
+- !private "CSo8UISlider"
+- "PSo16UIStateRestoring"
+- "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- "CSo16UIViewController"
+- !private "Su"
+- !private "Vs6UInt16"
+- !private "Vs6UInt32"
+- !private "Vs6UInt64"
+- !private "Vs5UInt8"
+- !private "Sc"
+- "C15UnitTestingDemo14ViewController"
+- !private "Ps37_DefaultCustomPlaygroundQuickLookable"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+- !private "value"
+depends-external:
+- "/Users/sharmpi/Downloads/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/sharmpi/Downloads/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/sharmpi/Downloads/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Users/sharmpi/Downloads/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Users/sharmpi/Downloads/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Users/sharmpi/Downloads/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Users/sharmpi/Downloads/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Users/sharmpi/Downloads/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Users/sharmpi/Downloads/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+interface-hash: "2acee8addd54a05b0814d34e812531ab"
