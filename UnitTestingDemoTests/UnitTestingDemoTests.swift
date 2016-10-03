@@ -77,7 +77,7 @@ class UnitTestingDemoTests: XCTestCase {
             let count = table.cells.count
             
             let cell = table.cells.element(boundBy: 0)
-            cell.buttons.matching(NSPredicate(format: "label BEGINSWITH 'Delete'")).element.tap()
+            cell.buttons.matching(predicate: NSPredicate(format: "label BEGINSWITH 'Delete'")).element.tap()
             cell.children(matching: .button).matching(identifier: "Delete").element(boundBy: 0).tap()
             XCTAssertEqual(Int(table.cells.count), Int(count) - 1)
         }
