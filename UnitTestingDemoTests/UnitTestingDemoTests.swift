@@ -64,7 +64,7 @@ class UnitTestingDemoTests: XCTestCase {
         XCTAssertEqual(cookiebutton.value as! String, "1")
     }
     
-    func removeAllItems() {
+   func removeAllItems() {
         let app = XCUIApplication()
         let table = app.tables
         
@@ -72,16 +72,34 @@ class UnitTestingDemoTests: XCTestCase {
         
         app.navigationBars.staticTexts["Groceries"].buttons["Edit"].tap()
         //app.navigationBars.matching(identifier: "Groceries").buttons["Edit"].tap()
-
+        
         while table.cells.buttons.count > 1 {
             let count = table.cells.count
             
             let cell = table.cells.element(boundBy: 0)
-            cell.buttons.matching(predicate: NSPredicate(format: "label BEGINSWITH 'Delete'")).element.tap()
+            cell.buttons.matching( NSPredicate(format: "label BEGINSWITH 'Delete'")).element.tap()
             cell.children(matching: .button).matching(identifier: "Delete").element(boundBy: 0).tap()
+            
             XCTAssertEqual(Int(table.cells.count), Int(count) - 1)
         }
-
+    }
+    
+    func testOtherButtonChangesFooter() {
+        let app = XCUIApplication()
+        
+        // Define the expectation on the final UI state
+        let expectedText = "Oh! Did something happen?!"
+        let labelIdentifier = "footer label"
+        let testPredicate = NSPredicate(format: "label = '\(expectedText)'")
+        let object = app.staticTexts.element(matching: .any, identifier: labelIdentifier)
+        
+        self.expectation(for: testPredicate, evaluatedWith: object, handler: nil)
+        
+        // Act on the UI to change the state
+        app.buttons["Press me and I'll do something, eventually"].tap()
+        
+        // Wait and see...
+        self.waitForExpectations(timeout: 10, handler: nil)
     }
 }
 
