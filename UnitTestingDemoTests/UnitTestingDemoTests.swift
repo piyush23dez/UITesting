@@ -80,7 +80,7 @@ class UnitTestingDemoTests: XCTestCase {
             //let object = table.cells.element(boundBy: Int)
             let cell = table.cells.element(boundBy: 0)
             
-            //matching function types
+            //To match an element in view hierarchy, we can use matching function like below
             //cell.buttons.matching(elementType: XCUIElementType, identifier: String)
             //cell.buttons.matching(predicate: NSPredicate)
             //cell.buttons.matching(identifier: String)
