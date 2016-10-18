@@ -86,6 +86,7 @@ class UnitTestingDemoTests: XCTestCase {
             //cell.buttons.matching(identifier: String)
             
             cell.buttons.matching(NSPredicate(format: "label BEGINSWITH 'Delete'")).element.tap()
+            //Chaining of matching and element function using children function to find a match in view hierarchy 
             cell.children(matching: .button).matching(identifier: "Delete").element(boundBy: 0).tap()
             
             XCTAssertEqual(Int(table.cells.count), Int(count) - 1)
