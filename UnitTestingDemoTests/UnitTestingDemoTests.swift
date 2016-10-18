@@ -74,8 +74,18 @@ class UnitTestingDemoTests: XCTestCase {
         while table.cells.count > 1 {
             let count = table.cells.count
             
+            //To get an element from a view hierarchy, we can use element function like below
+            //let object = table.cells.element(matching: XCUIElementType, identifier: String)
+            //let object = table.cells.element(matching: NSPredicate)
+            //let object = table.cells.element(boundBy: Int)
             let cell = table.cells.element(boundBy: 0)
-            cell.buttons.matching( NSPredicate(format: "label BEGINSWITH 'Delete'")).element.tap()
+            
+            //matching function types
+            //cell.buttons.matching(elementType: XCUIElementType, identifier: String)
+            //cell.buttons.matching(predicate: NSPredicate)
+            //cell.buttons.matching(identifier: String)
+            
+            cell.buttons.matching(NSPredicate(format: "label BEGINSWITH 'Delete'")).element.tap()
             cell.children(matching: .button).matching(identifier: "Delete").element(boundBy: 0).tap()
             
             XCTAssertEqual(Int(table.cells.count), Int(count) - 1)
