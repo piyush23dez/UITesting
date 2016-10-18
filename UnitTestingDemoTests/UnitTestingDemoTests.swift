@@ -69,11 +69,9 @@ class UnitTestingDemoTests: XCTestCase {
         let table = app.tables
         
         table.staticTexts["Groceries"].tap()
-        
         app.navigationBars.staticTexts["Groceries"].buttons["Edit"].tap()
-        //app.navigationBars.matching(identifier: "Groceries").buttons["Edit"].tap()
-        
-        while table.cells.buttons.count > 1 {
+       
+        while table.cells.count > 1 {
             let count = table.cells.count
             
             let cell = table.cells.element(boundBy: 0)
